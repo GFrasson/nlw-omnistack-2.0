@@ -1,0 +1,9 @@
+npm init -y			-> inicia a aplicação
+npm install typescript -D 	-> instala o typescript
+npx tsc --init 			-> cria arquivo de configurações do typescript  -> target: "es2017"
+npm install ts-node-dev -D	-> executa o server e o reinicia se alterar o ts. (semelhante ao nodemon)  -> package.json -> "scripts": {"start": "ts-node-dev --transpile-only --ignore-watch node_modules --respawn src/server.ts"}
+npm install express		-> mini framework para iniciar o server mais facilmente
+npm install @types/express -D 	-> configurações do express para o typescript
+npm install knex sqlite3	-> knex me permite escrever códigos do banco de dados em formato js  -> package.json -> "scripts": {"knex:migrate": "knex --knexfile knexfile.ts migrate:latest"}  -> Faz ele procurar por typescript ao invés de js
+npm install cors		-> Permite que endereços diferentes (como localhost:3000 do front-end) acessem a API
+npm install axios		-> (no front-end) o axios facilita o consumo de APIs externas

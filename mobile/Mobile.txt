@@ -1,0 +1,10 @@
+expo init mobile					-> cria o projeto com o nome mobile
+expo start						-> inicia a aplicação
+expo install expo-font @expo-google-fonts/fontname	-> baixa a fonte que for utilizar (substituir fontname pelo nome da fonte)
+npm install @react-navigation/native			-> biblioteca para fazer as rotas do aplicativo
+expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+npm install @react-navigation/stack			-> navegação em pilhas (stack)
+npm install @react-navigation/bottom-tabs		-> navegação em abas (tabs)
+npm install axios					-> faz a conexão com a API
+expo install @react-native-community/async-storage	-> banco de dados no celular
+
