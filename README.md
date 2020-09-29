@@ -8,7 +8,7 @@ Este projeto foi desenvolvido durante a "Next Level Week 2" da Rocketseat!
 
 ### Novo layout web
 
-- [x] Cabeçalho das páginas modificado
+- [] Cabeçalho das páginas modificado
 - [] Página inicial modificada
 - [] Página de cadastro de proffy modificada
 - [] Nova página de cadastro salvo
